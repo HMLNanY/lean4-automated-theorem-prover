@@ -43,6 +43,8 @@ class LeanRunner:
                 ['lake', 'lean', str(file_path)],
                 capture_output=True,
                 text=True,
+                encoding='utf-8',
+                errors='replace',
                 timeout=self.timeout,
                 cwd=Path.cwd()  # Run from project root where lakefile.lean is
             )

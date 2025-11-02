@@ -14,8 +14,9 @@ from typing import Dict, List, Optional
 from pathlib import Path
 
 from agents import PlanningAgent, GenerationAgent, VerificationAgent
-from embedding_db import EmbeddingDB
+import embedding_db
 from lean_runner import LeanRunner
+from src.embedding_db import EmbeddingDB
 
 
 class LeanTheoremProver:

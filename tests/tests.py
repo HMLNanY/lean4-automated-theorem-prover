@@ -12,8 +12,8 @@ from typing import Dict, List, Optional
 # Add src to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
-from main import main_workflow
-from lean_runner import execute_lean_code
+from src.main import main_workflow
+from src.lean_runner import execute_lean_code
 
 class TaskProcessor:
     """Processes and evaluates theorem proving tasks"""

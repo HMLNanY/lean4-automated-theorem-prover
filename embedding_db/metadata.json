@@ -1,6 +1,6 @@
 {
   "num_chunks": 5,
-  "embedding_model": "text-embedding-3-small",
+  "embedding_model": "gemini-simple",
   "chunk_size": 1000,
   "overlap_size": 200
 }

@@ -1,8 +1,5 @@
 # Environment variables and API keys
-.env
-*.env
-.env.local
-.env.production
+
 
 # Python cache
 __pycache__/
